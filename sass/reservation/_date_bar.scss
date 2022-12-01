@@ -1,0 +1,40 @@
+.date__bar {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-bottom: 1rem black solid ;
+  flex-direction: column;
+  .move_arrow {
+    @include move_arrow-properties;
+  }
+  .move_arrow-seondary{
+    transform: rotate(136deg);
+  }
+  h1 {
+    @include title-properties;
+  }
+  ol {
+    display: flex;
+    justify-content: center;
+    margin-left: -2rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    height: auto;
+    li{
+        padding: 1rem
+    }
+  }  
+  a {
+    @include anchor-properties;
+    @include title-properties;
+  }
+}
+.reserv__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    a {
+        @include anchor-properties;
+      }
+}

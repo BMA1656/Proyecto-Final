@@ -1,0 +1,28 @@
+.contenedores {
+  background-color: #37363944;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.button--base {
+  @include button-properties;
+  &:hover {
+    box-shadow: rgb(247 247 247) 0px 0px 4px 7px;
+    color: #960f0f;
+  }
+  :focus {
+    background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+    color: #ffffff;
+  }
+}
+.button--primary{
+  @include button-properties;
+  background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+}
+.button--secundary{
+  @include button-properties;
+  background: linear-gradient(180deg, #1738e2 0%, #071041 100%);
+}
