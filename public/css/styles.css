@@ -28,8 +28,65 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
-  text-align: center;
   color: #FFFFFF;
+}
+
+.headline {
+  display: flex;
+  background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+  box-shadow: 0px 4px 20px 20px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+ol {
+  display: flex;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  gap: 20px;
+}
+
+li {
+  padding: 5rem;
+  text-decoration: none;
+}
+li a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  margin-top: 80px;
+}
+
+.SubTitles {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.3125rem;
+  margin-left: 134px;
+  color: #800101;
 }
 
 .contenedores {
@@ -378,6 +435,107 @@ h2 {
 }
 .first-lesson_list li {
   padding: 1rem;
+}
+
+.headline {
+  margin-left: 0px;
+  display: flex;
+  background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+  box-shadow: 0px 4px 20px 20px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+ol {
+  display: flex;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  gap: 20px;
+}
+
+li {
+  padding: 5rem;
+  text-decoration: none;
+}
+li a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  margin-top: 80px;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+
+.SubTitles {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.3125rem;
+  margin-left: 134px;
+  color: #800101;
+  margin-top: 43px;
+}
+
+.slider {
+  display: flex;
+  gap: 25px;
+}
+
+.slider_imgs {
+  gap: 73px;
+  display: flex;
+}
+
+.arrow_nav {
+  width: 50px;
+  height: 51px;
+  margin-top: 80px;
+}
+
+.slider {
+  margin-left: 191px;
+  padding: 21px;
+}
+
+.section_grup {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  color: black;
+  margin-left: 115px;
+}
+
+.section_spining {
+  margin-left: 346px;
+}
+
+.section_imgs {
+  display: flex;
+  gap: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */

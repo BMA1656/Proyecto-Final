@@ -1,0 +1,41 @@
+
+.SubTitles{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 2.3125rem;
+    margin-left:  134px;
+    color: #800101;
+    margin-top: 43px;
+}
+.slider{
+    display: flex;
+    gap: 25px;
+}
+.slider_imgs{
+    gap: 73px;
+    display: flex;
+}
+.arrow_nav{
+    width: 50px;
+    height: 51px;
+    margin-top: 80px;
+}
+.slider{
+    margin-left: 191px;
+    padding: 21px;
+}
+.section_grup{
+    @include title_properties-secunday;
+    color: black;
+    margin-left:115px;
+
+}
+.section_spining {
+    margin-left: 346px;
+}
+.section_imgs{
+display: flex;
+gap: 15px
+}
