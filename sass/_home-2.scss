@@ -16,16 +16,16 @@
 .slider_imgs{
     gap: 73px;
     display: flex;
+    border: solid;
+    width: 264px;
 }
 .arrow_nav{
     width: 50px;
     height: 51px;
     margin-top: 80px;
+    border: solid;
 }
-.slider{
-    margin-left: 191px;
-    padding: 21px;
-}
+
 .section_grup{
     @include title_properties-secunday;
     color: black;
@@ -33,9 +33,9 @@
 
 }
 .section_spining {
-    margin-left: 346px;
+    margin-left: 112px;
 }
 .section_imgs{
 display: flex;
-gap: 15px
+gap: 15px;
 }
