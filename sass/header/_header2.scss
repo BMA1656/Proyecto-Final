@@ -26,7 +26,13 @@ li{
         @include title_properties-secunday;
         font-weight: 700;
         font-size: 1.375rem;
-        }  
+        } 
+        a:hover{
+            color: gray;
+        }
+        a:focus{
+            color: black;
+        }
 }
 
 .arrow{

@@ -478,6 +478,12 @@ li a {
   font-weight: 700;
   font-size: 1.375rem;
 }
+li a:hover {
+  color: gray;
+}
+li a:focus {
+  color: black;
+}
 
 .arrow {
   width: 14px;
