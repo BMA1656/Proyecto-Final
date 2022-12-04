@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w sass public/css",
+    "sass": "sass -w sass:public/css",
     "sass-build": "sass -w sass:public-build/css -s compressed"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.56.0"
+    "run": "^1.4.0",
+    "sass": "^1.56.1"
   }
 }
