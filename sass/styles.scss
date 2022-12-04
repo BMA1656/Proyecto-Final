@@ -1,11 +1,11 @@
 @import "_mixins.scss";
 @import "header/_header.scss";
-@import "_buttons.scss";
-@import "_content.scss";
-@import "_list-style.scss";
-@import "_titulos.scss";
-@import "_pallete.scss";
-@import "_sbutton.scss";
+@import "desingsystem_buttons.scss";
+@import "desingsystem_content.scss";
+@import "desingsystem_list-style.scss";
+@import "desingsystem_titulos.scss";
+@import "desingsystem_pallete.scss";
+@import "desingsystem_sbutton.scss";
 @import "reservation/_date_bar.scss";
 @import "reservation/_lessons.scss";
 
