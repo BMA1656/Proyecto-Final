@@ -5,26 +5,36 @@
     font-weight: 600;
     font-size: 1.875rem;
     line-height: 2.3125rem;
-    margin-left:  134px;
+    margin-left:  9px;
     color: #800101;
-    margin-top: 43px;
+    margin-top: 50px;
+    
 }
+
 .slider{
     display: flex;
     gap: 25px;
+    justify-content: center;
 }
 .slider_imgs{
     gap: 73px;
     display: flex;
     border: solid;
     width: 264px;
+    justify-content: center;
 }
 .arrow_nav{
     width: 50px;
     height: 51px;
     margin-top: 80px;
-    border: solid;
+
 }
+.section__text{
+margin-left: 102px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
 
 .section_grup{
     @include title_properties-secunday;
@@ -38,4 +48,5 @@
 .section_imgs{
 display: flex;
 gap: 15px;
+justify-content: center;
 }

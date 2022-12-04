@@ -1,17 +1,63 @@
-.foot{
-    width: 100%;
-    height: 250px;
-    background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
-box-shadow: 0px 4px 20px 20px rgb(0 0 0 / 25%);
-display: flex;
-position: relative;
+.foot {
+  width: 100%;
+  height: 15.625rem;
+  background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+  box-shadow: 0rem 0.25rem 1.25rem 1.25rem rgb(0 0 0 / 25%);
+  display: flex;
 
-}
-.foot__fire {
-width: 104px;
-height: 105px;
-position: absolute;
-left: 73px;
-top: 12px;
+  &__fire {
+    width: 6.5rem;
+    height: 6.5625rem;
+    position: relative;
+  }
+
+  p {
+    color: white;
+    position: relative;
+    top: 1.75rem;
+    left: 2.375rem;
+  }
+  &__redes {
+    display: grid;
+  }
 }
 
+.foot__redes {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 10%;
+  color: white;
+  gap: 4%;
+}
+
+.img-foot {
+  position: relative;
+  left: 29%;
+  padding: 3rem 1.125rem 0.4375rem 0.1875rem;
+}
+
+.p-footer {
+  position: relative;
+  left: 10%;
+  top: 28%;
+}
+
+.networks {
+  display: flex;
+  align-content: flex-end;
+  position: relative;
+  left: 51%;
+  top: 12%;
+  color: white;
+  flex-direction: column;
+  font-size: 34px;
+
+&__text{
+  font-family: 'Montserrat', sans-serif;
+}
+&__logos{
+    display: flex;
+    gap: 20px;
+}
+}
