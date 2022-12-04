@@ -15,7 +15,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
-  margin: 0rem 26rem 0rem 26rem;
+  margin: 0rem 3rem 0rem 3rem;
 }
 .holi ol li {
   padding: 5rem;
@@ -361,14 +361,12 @@ h2 {
   line-height: 39px;
 }
 
-.reserv__main {
+.lessons {
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: center;
+  flex-flow: column nowrap;
   align-items: center;
-  flex-direction: column;
-}
-.reserv__main a {
-  text-decoration: none;
 }
 
 .first-lesson_list {
@@ -378,6 +376,23 @@ h2 {
 }
 .first-lesson_list li {
   padding: 1rem;
+}
+
+.container--reserv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.container--reserv .reserv__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container--reserv .reserv__main a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
