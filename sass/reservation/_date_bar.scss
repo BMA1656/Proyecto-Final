@@ -29,12 +29,3 @@
     @include title-properties;
   }
 }
-.reserv__main{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    flex-direction: column;
-    a {
-        @include anchor-properties;
-      }
-}
