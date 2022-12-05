@@ -1,17 +1,45 @@
-.lessons{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+.lessons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
+.first-lesson_list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  p {
+    margin-right: 6rem;
+    font-weight: 500;
+    line-height: 3.9375rem;
+    color: #5d0404;
+    border: #5d0404 0.365rem solid;
+    background: #d9d9d9;
+  }
+  li {
+    width: 100%;
+    height: auto;
+    p,
+    a {
+        width: calc(18.75rem + 7rem);
+        padding: 1.5rem;
+        border-radius: 3rem;
+      &:hover {
+        cursor: pointer;
+      }
 
-.first-lesson_list{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    li{
-        padding: 1rem;
+      font-size: 2.875rem;
     }
+    p {
+    }
+  }
+  &:nth-child(1) {
+    h2 {
+      @include title-properties;
+      margin: auto 13rem auto auto;
+      font-size: 4.7rem;
+    }
+  }
 }
