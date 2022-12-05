@@ -2,16 +2,21 @@
   display: flex;
   width: 100%;
   height: auto;
-  border-bottom: 1rem black solid ;
+  border-bottom: 1rem black solid;
   flex-direction: column;
-  .move_arrow {
-    @include move_arrow-properties;
+  .move__arrow {
+    @include move__arrow-properties;
+    &:hover {
+      cursor: pointer;
+    }
   }
-  .move_arrow-seondary{
+  .move__arrow-seondary {
     transform: rotate(136deg);
   }
   h1 {
     @include title-properties;
+    margin:6rem 4rem 1rem ;
+    font-size: 3rem;
   }
   ol {
     display: flex;
@@ -20,12 +25,19 @@
     margin-bottom: 4rem;
     width: 100%;
     height: auto;
-    li{
-        padding: 1rem
+    li {
+      padding: 1rem;
     }
-  }  
+  }
   a {
     @include anchor-properties;
     @include title-properties;
+
+    p,
+    a {
+      width: 18rem;
+      height: 6rem;
+      padding: 1rem;
+    }
   }
 }

@@ -14,8 +14,14 @@
         @include anchor-properties;
       }
 }
+
 }
 
 .container--lesson{
-    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+ 
+   
 }

@@ -10,7 +10,7 @@
 .button--base {
   @include button-properties;
   &:hover {
-    box-shadow: rgb(247 247 247) 0px 0px 4px 7px;
+    box-shadow: rgb(247 247 247) 0rem 0rem 0.25rem 0.4375rem;
     color: #960f0f;
   }
   :focus {
@@ -18,11 +18,147 @@
     color: #ffffff;
   }
 }
-.button--primary{
+.button--primary {
   @include button-properties;
   background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+  
 }
-.button--secundary{
+.button--secundary {
   @include button-properties;
   background: linear-gradient(180deg, #1738e2 0%, #071041 100%);
+}
+
+.darrell {
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 1.5625rem;
+  }
+
+  .navegation {
+    position: absolute;
+    left: 41.3125rem;
+  }
+
+  .default {
+    display: flex;
+    flex-direction: row;
+    gap: 2.1875rem;
+    margin-top: 0.875rem;
+  }
+
+  .default a {
+    display: block;
+    background: rgb(150, 15, 15);
+    background: linear-gradient(
+      185deg,
+      rgba(150, 15, 15, 1) 0%,
+      rgba(47, 5, 5, 1) 100%
+    );
+    border-radius: 1.5625rem;
+    width: 4.5625rem;
+    height: 2.5rem;
+    border-radius: 29%;
+    padding-left: 1.875rem;
+    padding-top: 1.1875rem;
+  }
+
+  .desactive {
+    display: flex;
+    flex-direction: row;
+    gap: 2.75rem;
+    margin-top: 0.875rem;
+  }
+
+  .desactive a {
+    display: block;
+    background: rgb(0, 15, 93);
+    background: linear-gradient(
+      185deg,
+      rgba(0, 15, 93, 1) 0%,
+      rgba(0, 31, 197, 1) 48%,
+      rgba(0, 4, 27, 1) 100%
+    );
+    border-radius: 1.5625rem;
+    width: 4.5625rem;
+    height: 2.5rem;
+    border-radius: 29%;
+    padding-left: 1.875rem;
+    padding-top: 1.1875rem;
+  }
+
+  .hover {
+    display: flex;
+    flex-direction: row;
+    gap: 2.75rem;
+    margin-top: 0.875rem;
+  }
+
+  .hover a {
+    display: block;
+    background: rgb(158, 158, 158);
+    background: linear-gradient(
+      185deg,
+      rgba(158, 158, 158, 1) 0%,
+      rgba(89, 89, 89, 1) 100%
+    );
+    border-radius: 1.5625rem;
+    width: 4.5625rem;
+    height: 2.5rem;
+    border-radius: 29%;
+    padding-left: 1.875rem;
+    padding-top: 1.1875rem;
+  }
+
+  .funtional {
+    display: flex;
+    flex-direction: row;
+    gap: 2.1875rem;
+    margin-top: 0.875rem;
+  }
+
+  .funtional a {
+    display: block;
+    background: rgb(150, 15, 15);
+    background: linear-gradient(
+      185deg,
+      rgba(150, 15, 15, 1) 0%,
+      rgba(47, 5, 5, 1) 100%
+    );
+    border-radius: 1.5625rem;
+    width: 4.5625rem;
+    height: 2.5rem;
+    border-radius: 29%;
+    padding-left: 1.875rem;
+    padding-top: 1.1875rem;
+  }
+
+  .funtional :hover {
+    background: rgb(158, 158, 158);
+    background: linear-gradient(
+      185deg,
+      rgba(158, 158, 158, 1) 0%,
+      rgba(89, 89, 89, 1) 100%
+    );
+  }
+
+  .funtional :focus {
+    background: rgb(0, 15, 93);
+    background: linear-gradient(
+      185deg,
+      rgba(0, 15, 93, 1) 0%,
+      rgba(0, 31, 197, 1) 48%,
+      rgba(0, 4, 27, 1) 100%
+    );
+  }
+
+  .poli {
+    width: 1.125rem;
+    height: 1.6875rem;
+  }
 }
