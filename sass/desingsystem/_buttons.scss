@@ -1,3 +1,32 @@
+.contenedores {
+  background-color: #37363944;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.button--base {
+  @include button-properties;
+  &:hover {
+    box-shadow: rgb(247 247 247) 0rem 0rem 0.25rem 0.4375rem;
+    color: #960f0f;
+  }
+  :focus {
+    background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+    color: #ffffff;
+  }
+}
+.button--primary {
+  @include button-properties;
+  background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
+  
+}
+.button--secundary {
+  @include button-properties;
+  background: linear-gradient(180deg, #1738e2 0%, #071041 100%);
+}
 
 .darrell {
   a {
@@ -8,19 +37,19 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
   }
 
   .navegation {
     position: absolute;
-    left: 661px;
+    left: 41.3125rem;
   }
 
   .default {
     display: flex;
     flex-direction: row;
-    gap: 35px;
-    margin-top: 14px;
+    gap: 2.1875rem;
+    margin-top: 0.875rem;
   }
 
   .default a {
@@ -31,19 +60,19 @@
       rgba(150, 15, 15, 1) 0%,
       rgba(47, 5, 5, 1) 100%
     );
-    border-radius: 25px;
-    width: 73px;
-    height: 40px;
+    border-radius: 1.5625rem;
+    width: 4.5625rem;
+    height: 2.5rem;
     border-radius: 29%;
-    padding-left: 30px;
-    padding-top: 19px;
+    padding-left: 1.875rem;
+    padding-top: 1.1875rem;
   }
 
   .desactive {
     display: flex;
     flex-direction: row;
-    gap: 44px;
-    margin-top: 14px;
+    gap: 2.75rem;
+    margin-top: 0.875rem;
   }
 
   .desactive a {
@@ -55,19 +84,19 @@
       rgba(0, 31, 197, 1) 48%,
       rgba(0, 4, 27, 1) 100%
     );
-    border-radius: 25px;
-    width: 73px;
-    height: 40px;
+    border-radius: 1.5625rem;
+    width: 4.5625rem;
+    height: 2.5rem;
     border-radius: 29%;
-    padding-left: 30px;
-    padding-top: 19px;
+    padding-left: 1.875rem;
+    padding-top: 1.1875rem;
   }
 
   .hover {
     display: flex;
     flex-direction: row;
-    gap: 44px;
-    margin-top: 14px;
+    gap: 2.75rem;
+    margin-top: 0.875rem;
   }
 
   .hover a {
@@ -78,19 +107,19 @@
       rgba(158, 158, 158, 1) 0%,
       rgba(89, 89, 89, 1) 100%
     );
-    border-radius: 25px;
-    width: 73px;
-    height: 40px;
+    border-radius: 1.5625rem;
+    width: 4.5625rem;
+    height: 2.5rem;
     border-radius: 29%;
-    padding-left: 30px;
-    padding-top: 19px;
+    padding-left: 1.875rem;
+    padding-top: 1.1875rem;
   }
 
   .funtional {
     display: flex;
     flex-direction: row;
-    gap: 35px;
-    margin-top: 14px;
+    gap: 2.1875rem;
+    margin-top: 0.875rem;
   }
 
   .funtional a {
@@ -101,12 +130,12 @@
       rgba(150, 15, 15, 1) 0%,
       rgba(47, 5, 5, 1) 100%
     );
-    border-radius: 25px;
-    width: 73px;
-    height: 40px;
+    border-radius: 1.5625rem;
+    width: 4.5625rem;
+    height: 2.5rem;
     border-radius: 29%;
-    padding-left: 30px;
-    padding-top: 19px;
+    padding-left: 1.875rem;
+    padding-top: 1.1875rem;
   }
 
   .funtional :hover {
@@ -129,7 +158,7 @@
   }
 
   .poli {
-    width: 18px;
-    height: 27px;
+    width: 1.125rem;
+    height: 1.6875rem;
   }
 }

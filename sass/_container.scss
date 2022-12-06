@@ -1,0 +1,32 @@
+.container--reserv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+.reserv__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    a {
+        @include anchor-properties;
+      }
+}
+
+}
+
+.container--lesson{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+ 
+   
+}
+
+.index__container{
+    width: 100%;
+    height: 1292px;
+}

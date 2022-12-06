@@ -1,4 +1,19 @@
-.holi {
+.menu ol {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons ol {
+  display: flex;
+}
+
+.coachs {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.header {
   display: flex;
   background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
   box-shadow: 0px 4px 20px 20px rgba(0, 0, 0, 0.25);
@@ -7,21 +22,21 @@
   padding: 1rem;
   justify-content: space-between;
 }
-.holi ol {
+.header ol {
   display: flex;
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
-  margin: 0rem 26rem 0rem 26rem;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  margin: 0rem 3rem 0rem 3rem;
 }
-.holi ol li {
+.header ol li {
   padding: 5rem;
   text-decoration: none;
 }
-.holi ol li a {
+.header ol li a {
   text-decoration: none;
   font-family: "Montserrat";
   font-style: normal;
@@ -32,6 +47,25 @@
 }
 
 .headline {
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header--main {
+  box-shadow: none;
+  background: transparent;
+}
+
+.img img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+footer {
   display: flex;
   background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
   box-shadow: 0px 4px 20px 20px rgba(0, 0, 0, 0.25);
@@ -87,6 +121,19 @@ li a {
   line-height: 2.3125rem;
   margin-left: 134px;
   color: #800101;
+  height: 538px;
+  padding: 1rem;
+  justify-content: space-between;
+}
+footer .horario {
+  display: flex;
+}
+footer .horario ul {
+  display: inline-block;
+}
+
+.content {
+  display: flex;
 }
 
 .contenedores {
@@ -119,7 +166,7 @@ li a {
   text-shadow: 0.3125rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
 }
 .button--base:hover {
-  box-shadow: rgb(247, 247, 247) 0px 0px 4px 7px;
+  box-shadow: rgb(247, 247, 247) 0rem 0rem 0.25rem 0.4375rem;
   color: #960f0f;
 }
 .button--base :focus {
@@ -169,8 +216,99 @@ li a {
   background: linear-gradient(180deg, #1738e2 0%, #071041 100%);
 }
 
-.content {
+.darrell a {
+  text-decoration: none;
+  color: #fff;
+}
+.darrell section {
   display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 1.5625rem;
+}
+.darrell .navegation {
+  position: absolute;
+  left: 41.3125rem;
+}
+.darrell .default {
+  display: flex;
+  flex-direction: row;
+  gap: 2.1875rem;
+  margin-top: 0.875rem;
+}
+.darrell .default a {
+  display: block;
+  background: rgb(150, 15, 15);
+  background: linear-gradient(185deg, rgb(150, 15, 15) 0%, rgb(47, 5, 5) 100%);
+  border-radius: 1.5625rem;
+  width: 4.5625rem;
+  height: 2.5rem;
+  border-radius: 29%;
+  padding-left: 1.875rem;
+  padding-top: 1.1875rem;
+}
+.darrell .desactive {
+  display: flex;
+  flex-direction: row;
+  gap: 2.75rem;
+  margin-top: 0.875rem;
+}
+.darrell .desactive a {
+  display: block;
+  background: rgb(0, 15, 93);
+  background: linear-gradient(185deg, rgb(0, 15, 93) 0%, rgb(0, 31, 197) 48%, rgb(0, 4, 27) 100%);
+  border-radius: 1.5625rem;
+  width: 4.5625rem;
+  height: 2.5rem;
+  border-radius: 29%;
+  padding-left: 1.875rem;
+  padding-top: 1.1875rem;
+}
+.darrell .hover {
+  display: flex;
+  flex-direction: row;
+  gap: 2.75rem;
+  margin-top: 0.875rem;
+}
+.darrell .hover a {
+  display: block;
+  background: rgb(158, 158, 158);
+  background: linear-gradient(185deg, rgb(158, 158, 158) 0%, rgb(89, 89, 89) 100%);
+  border-radius: 1.5625rem;
+  width: 4.5625rem;
+  height: 2.5rem;
+  border-radius: 29%;
+  padding-left: 1.875rem;
+  padding-top: 1.1875rem;
+}
+.darrell .funtional {
+  display: flex;
+  flex-direction: row;
+  gap: 2.1875rem;
+  margin-top: 0.875rem;
+}
+.darrell .funtional a {
+  display: block;
+  background: rgb(150, 15, 15);
+  background: linear-gradient(185deg, rgb(150, 15, 15) 0%, rgb(47, 5, 5) 100%);
+  border-radius: 1.5625rem;
+  width: 4.5625rem;
+  height: 2.5rem;
+  border-radius: 29%;
+  padding-left: 1.875rem;
+  padding-top: 1.1875rem;
+}
+.darrell .funtional :hover {
+  background: rgb(158, 158, 158);
+  background: linear-gradient(185deg, rgb(158, 158, 158) 0%, rgb(89, 89, 89) 100%);
+}
+.darrell .funtional :focus {
+  background: rgb(0, 15, 93);
+  background: linear-gradient(185deg, rgb(0, 15, 93) 0%, rgb(0, 31, 197) 48%, rgb(0, 4, 27) 100%);
+}
+.darrell .poli {
+  width: 1.125rem;
+  height: 1.6875rem;
 }
 
 li {
@@ -188,187 +326,92 @@ h2 {
 
 .rojo1 {
   background-color: #410000;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .rojo2 {
   background-color: #720c0c;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .rojo3 {
   background-color: #b81c1c;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .gris1 {
   background-color: #595959;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .gris2 {
   background-color: #777373;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .gris3 {
   background-color: #a69f9f;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .azul1 {
   background-color: #05003f;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .azul2 {
   background-color: #02006b;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .azul3 {
   background-color: #2825db;
-  width: 185px;
+  width: 11.5625rem;
   color: white;
-  height: 35px;
-  left: 1571px;
-  top: 237px;
-  margin-bottom: 5px;
-}
-
-.darrell a {
-  text-decoration: none;
-  color: #fff;
-}
-.darrell section {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-top: 25px;
-}
-.darrell .navegation {
-  position: absolute;
-  left: 661px;
-}
-.darrell .default {
-  display: flex;
-  flex-direction: row;
-  gap: 35px;
-  margin-top: 14px;
-}
-.darrell .default a {
-  display: block;
-  background: rgb(150, 15, 15);
-  background: linear-gradient(185deg, rgb(150, 15, 15) 0%, rgb(47, 5, 5) 100%);
-  border-radius: 25px;
-  width: 73px;
-  height: 40px;
-  border-radius: 29%;
-  padding-left: 30px;
-  padding-top: 19px;
-}
-.darrell .desactive {
-  display: flex;
-  flex-direction: row;
-  gap: 44px;
-  margin-top: 14px;
-}
-.darrell .desactive a {
-  display: block;
-  background: rgb(0, 15, 93);
-  background: linear-gradient(185deg, rgb(0, 15, 93) 0%, rgb(0, 31, 197) 48%, rgb(0, 4, 27) 100%);
-  border-radius: 25px;
-  width: 73px;
-  height: 40px;
-  border-radius: 29%;
-  padding-left: 30px;
-  padding-top: 19px;
-}
-.darrell .hover {
-  display: flex;
-  flex-direction: row;
-  gap: 44px;
-  margin-top: 14px;
-}
-.darrell .hover a {
-  display: block;
-  background: rgb(158, 158, 158);
-  background: linear-gradient(185deg, rgb(158, 158, 158) 0%, rgb(89, 89, 89) 100%);
-  border-radius: 25px;
-  width: 73px;
-  height: 40px;
-  border-radius: 29%;
-  padding-left: 30px;
-  padding-top: 19px;
-}
-.darrell .funtional {
-  display: flex;
-  flex-direction: row;
-  gap: 35px;
-  margin-top: 14px;
-}
-.darrell .funtional a {
-  display: block;
-  background: rgb(150, 15, 15);
-  background: linear-gradient(185deg, rgb(150, 15, 15) 0%, rgb(47, 5, 5) 100%);
-  border-radius: 25px;
-  width: 73px;
-  height: 40px;
-  border-radius: 29%;
-  padding-left: 30px;
-  padding-top: 19px;
-}
-.darrell .funtional :hover {
-  background: rgb(158, 158, 158);
-  background: linear-gradient(185deg, rgb(158, 158, 158) 0%, rgb(89, 89, 89) 100%);
-}
-.darrell .funtional :focus {
-  background: rgb(0, 15, 93);
-  background: linear-gradient(185deg, rgb(0, 15, 93) 0%, rgb(0, 31, 197) 48%, rgb(0, 4, 27) 100%);
-}
-.darrell .poli {
-  width: 18px;
-  height: 27px;
+  height: 2.1875rem;
+  left: 98.1875rem;
+  top: 14.8125rem;
+  margin-bottom: 0.3125rem;
 }
 
 .date__bar {
@@ -378,7 +421,7 @@ h2 {
   border-bottom: 1rem black solid;
   flex-direction: column;
 }
-.date__bar .move_arrow {
+.date__bar .move__arrow {
   width: 3rem;
   height: 3rem;
   border: 0.8rem solid;
@@ -388,15 +431,20 @@ h2 {
   bottom: -1rem;
   background: none;
 }
-.date__bar .move_arrow-seondary {
+.date__bar .move__arrow:hover {
+  cursor: pointer;
+}
+.date__bar .move__arrow-seondary {
   transform: rotate(136deg);
 }
 .date__bar h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  margin: 6rem 4rem 1rem;
+  font-size: 3rem;
 }
 .date__bar ol {
   display: flex;
@@ -414,18 +462,22 @@ h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+}
+.date__bar a p,
+.date__bar a a {
+  width: 18rem;
+  height: 6rem;
+  padding: 1rem;
 }
 
-.reserv__main {
+.lessons {
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: center;
+  flex-flow: column nowrap;
   align-items: center;
-  flex-direction: column;
-}
-.reserv__main a {
-  text-decoration: none;
 }
 
 .first-lesson_list {
@@ -433,8 +485,66 @@ h2 {
   flex-wrap: nowrap;
   align-items: center;
 }
+.first-lesson_list p {
+  margin-right: 6rem;
+  font-weight: 500;
+  line-height: 3.9375rem;
+  color: #5d0404;
+  border: #5d0404 0.365rem solid;
+  background: #d9d9d9;
+}
 .first-lesson_list li {
-  padding: 1rem;
+  width: 100%;
+  height: auto;
+}
+.first-lesson_list li p,
+.first-lesson_list li a {
+  width: 25.75rem;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  font-size: 2.875rem;
+}
+.first-lesson_list li p:hover,
+.first-lesson_list li a:hover {
+  cursor: pointer;
+}
+.first-lesson_list:nth-child(1) h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  margin: auto 13rem auto auto;
+  font-size: 4.7rem;
+}
+
+.container--reserv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.container--reserv .reserv__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container--reserv .reserv__main a {
+  text-decoration: none;
+}
+
+.container--lesson {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.index__container {
+  width: 100%;
+  height: 1292px;
 }
 
 body {
