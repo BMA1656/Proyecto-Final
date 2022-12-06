@@ -25,6 +25,7 @@
     height: auto;
     p,
     a {
+      
         padding: 1.5rem 4.6063rem;
         border-radius: 3rem;
       &:hover {
@@ -37,7 +38,7 @@
   &:nth-child(1) {
     h2 {
       @include title-properties;
-      margin: auto 13rem auto auto;
+      margin: auto 4vh auto auto;
       font-size: 4.7rem;
     }
   }
