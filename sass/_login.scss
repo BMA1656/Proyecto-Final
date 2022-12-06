@@ -1,0 +1,49 @@
+form {
+    width: 450px;
+    margin-left: 150px;
+    background: rgb(36, 52, 77);
+    background: linear-gradient(180deg, rgba(36, 52, 77, 1) 0%, rgba(103, 128, 201, 1) 100%);
+    border-radius: 1.25rem;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+input.textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+input.password {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
