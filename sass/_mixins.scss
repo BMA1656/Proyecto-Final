@@ -1,9 +1,10 @@
 @mixin button-properties {
   background: linear-gradient(180deg, #9e9e9e 0%, #595959 100%);
   box-shadow: 0.3125rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25);
-  width: 18.75rem;
-  height: 5.625rem;
+  width: 14.75rem;
+  height: 3.625rem;
   display: flex;
+  padding: 0.7 0.3;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
@@ -49,3 +50,6 @@
   background: none;
 }
 
+body{
+  margin: auto;
+}

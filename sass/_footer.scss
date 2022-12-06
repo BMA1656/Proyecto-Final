@@ -1,4 +1,4 @@
-.foot {
+.footer-secundary {
   width: 100%;
   height: 15.625rem;
   background: linear-gradient(180deg, #960f0f 0%, #2f0505 100%);
@@ -25,15 +25,12 @@
 .foot__redes {
   display: flex;
   flex-direction: column;
-  position: relative;
-  left: 10%;
-  color: white;
+   color: white;
   gap: 4%;
 }
 
 .img-foot {
   position: relative;
-  left: 29%;
   padding: 3rem 1.125rem 0.4375rem 0.1875rem;
 }
 
@@ -46,18 +43,13 @@
 .networks {
   display: flex;
   align-content: flex-end;
-  position: relative;
-  left: 51%;
-  top: 12%;
   color: white;
   flex-direction: column;
-  font-size: 34px;
-
-&__text{
-  font-family: 'Montserrat', sans-serif;
-}
-&__logos{
+  &__text {
+    font-family: "Montserrat", sans-serif;
+  }
+  &__logos {
     display: flex;
     gap: 21px;
-}
+  }
 }
