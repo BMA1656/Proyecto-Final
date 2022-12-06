@@ -1,5 +1,7 @@
 @import "_mixins.scss";
+@import "index/_index.scss";
 @import "header/_header.scss";
+@import "footer/_footer.scss";
 @import "desingsystem/_content.scss";
 @import "desingsystem/_buttons.scss";
 @import "desingsystem/_list-style.scss";
@@ -7,6 +9,6 @@
 @import "desingsystem/_pallete.scss";
 @import "reservation/_date_bar.scss";
 @import "reservation/_lessons.scss";
-@import 'reservation/container';
+@import 'container';
 
 
